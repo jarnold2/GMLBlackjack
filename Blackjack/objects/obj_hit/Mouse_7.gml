@@ -2,7 +2,11 @@ var card = array_pop(obj_blackjack_deck.array_of_cards);
 
 if(card)
 {
-	var _instance = instance_create_depth(x + (card_x_pos + card_x_adjustment), y + card_y_pos, depth + card_depth_adjustment, obj_blackjack_card,{
+	var _instance = instance_create_depth(
+		(obj_card_player_spot.x + card_x_adjustment), 
+		obj_card_player_spot.y, 
+		depth + card_depth_adjustment, 
+		obj_blackjack_card,{
 			suit : card.suit,
 			number : card.number
 	});
