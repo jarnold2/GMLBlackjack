@@ -1,21 +1,18 @@
 {
   "$GMObject":"",
-  "%Name":"obj_hit",
+  "%Name":"obj_dealer_score",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":7,"eventType":6,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":8,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_hit",
+  "name":"obj_dealer_score",
   "overriddenProperties":[],
   "parent":{
     "name":"Blackjack",
     "path":"folders/Objects/Blackjack.yy",
   },
-  "parentObjectId":{
-    "name":"obj_button_parent",
-    "path":"objects/obj_button_parent/obj_button_parent.yy",
-  },
+  "parentObjectId":null,
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
@@ -33,10 +30,7 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":{
-    "name":"spr_1_card_draw",
-    "path":"sprites/spr_1_card_draw/spr_1_card_draw.yy",
-  },
+  "spriteId":null,
   "spriteMaskId":null,
   "visible":true,
 }

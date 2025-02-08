@@ -1,12 +1,12 @@
 {
   "$GMObject":"",
-  "%Name":"obj_hit",
+  "%Name":"obj_deal",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":7,"eventType":6,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_hit",
+  "name":"obj_deal",
   "overriddenProperties":[],
   "parent":{
     "name":"Blackjack",
@@ -34,8 +34,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_1_card_draw",
-    "path":"sprites/spr_1_card_draw/spr_1_card_draw.yy",
+    "name":"spr_play_button_title",
+    "path":"sprites/spr_play_button_title/spr_play_button_title.yy",
   },
   "spriteMaskId":null,
   "visible":true,
