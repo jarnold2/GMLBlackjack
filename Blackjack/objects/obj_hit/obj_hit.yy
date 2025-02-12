@@ -9,8 +9,8 @@
   "name":"obj_hit",
   "overriddenProperties":[],
   "parent":{
-    "name":"Blackjack",
-    "path":"folders/Objects/Blackjack.yy",
+    "name":"Buttons",
+    "path":"folders/Objects/Blackjack/Buttons.yy",
   },
   "parentObjectId":{
     "name":"obj_button_parent",

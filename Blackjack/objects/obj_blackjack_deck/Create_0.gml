@@ -1,3 +1,5 @@
+randomize();
+
 //card type
 card = function(_suit, _number) constructor
 {

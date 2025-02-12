@@ -1,21 +1,17 @@
 {
   "$GMObject":"",
-  "%Name":"obj_stand",
+  "%Name":"obj_restart",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":7,"eventType":6,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_stand",
+  "name":"obj_restart",
   "overriddenProperties":[],
   "parent":{
     "name":"Buttons",
     "path":"folders/Objects/Blackjack/Buttons.yy",
   },
-  "parentObjectId":{
-    "name":"obj_button_parent",
-    "path":"objects/obj_button_parent/obj_button_parent.yy",
-  },
+  "parentObjectId":null,
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
@@ -34,9 +30,9 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_x_title",
-    "path":"sprites/spr_x_title/spr_x_title.yy",
+    "name":"spr_mini_replay",
+    "path":"sprites/spr_mini_replay/spr_mini_replay.yy",
   },
   "spriteMaskId":null,
-  "visible":true,
+  "visible":false,
 }

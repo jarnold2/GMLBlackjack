@@ -17,12 +17,14 @@ if(card)
 	card_x_adjustment += 40;
 	card_depth_adjustment += -1;
 	
-	obj_blackjack_score.blackjack_score += normalizeCardScore(card.number);
+	array_push(obj_blackjack_score.hand, _instance);
 	
-	if(obj_blackjack_score.blackjack_score > 21)
-	{
-		obj_blackjack_score.blackjack_bust = true;
-	}
+	//obj_blackjack_score.blackjack_score += normalizeCardScore(card.number);
+	
+	//if(obj_blackjack_score.blackjack_score > 21)
+	//{
+	//	obj_blackjack_score.blackjack_bust = true;
+	//}
 } 
 
 function normalizeCardScore(cardScore)

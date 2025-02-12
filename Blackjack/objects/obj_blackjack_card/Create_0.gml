@@ -8,4 +8,3 @@ var _cards = [_clubs,_spades,_diamonds,_hearts];
 card_face = _cards[suit,number];
 
 sprite_index = card_face;
-//face = spr_card_back;
